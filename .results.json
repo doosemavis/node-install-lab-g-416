@@ -1,0 +1,59 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-04-23T03:28:23.273Z",
+    "end": "2021-04-23T03:28:23.479Z",
+    "duration": 206
+  },
+  "tests": [
+    {
+      "title": "must be 5.1",
+      "fullTitle": "node version must be 5.1",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '14.15.4' to equal '5.1.0'",
+        "showDiff": true,
+        "actual": "14.15.4",
+        "expected": "5.1.0",
+        "stack": "AssertionError: expected '14.15.4' to equal '5.1.0'\n    at Context.<anonymous> (test/index.js:7:38)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    },
+    {
+      "title": "must be 2.14.15 or greater",
+      "fullTitle": "npm version must be 2.14.15 or greater",
+      "duration": 198,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must be 5.1",
+      "fullTitle": "node version must be 5.1",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '14.15.4' to equal '5.1.0'",
+        "showDiff": true,
+        "actual": "14.15.4",
+        "expected": "5.1.0",
+        "stack": "AssertionError: expected '14.15.4' to equal '5.1.0'\n    at Context.<anonymous> (test/index.js:7:38)\n    at processImmediate (internal/timers.js:461:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "must be 2.14.15 or greater",
+      "fullTitle": "npm version must be 2.14.15 or greater",
+      "duration": 198,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
